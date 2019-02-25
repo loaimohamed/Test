@@ -1,3 +1,4 @@
+<script>
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "https://raw.githubusercontent.com/loaimohamed/Test/master/Data.json");
 var listM = document.getElementById("listM");
@@ -32,3 +33,4 @@ xhr.send();
 window.on = function () {
 }
 // {"List" : ["","","","","","","",""]},
+</script>
